@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onmousemove="mover()">
+	<div class="ct" onclick="prest()" id="tc">NEOSISTEMAS</div>
+	<div class="ct2" onclick="prest()" id="tc">Centro Educativo</div>
+	<img src="esc.png" class="ce" id="ec">
+	<div class="c1" onclick="lev1()">PRESIONAME!</div>
+	<div class="cc1" id="lv1"></div>
+	<div class="c2" onclick="lev2()" onclick="levv2()">PRESIONAME!</div>
+	<div class="cc2" id="lv2"><div class="ca" id="ac" onclick="cerrar()"></div>
+	<div class="cm" id="mc"></div><div class="cm2" id="mc2"></div></div>
+	<div class="mou" id="oum" onclick="cerrar2()" ></div>
+	<div class="mou1" id="oum1"></div>
+	<script>
+		x=0;
+		function prest(){
+			ec.style.width=40+"%";
+			ec.style.opacity=100+"%";
+			setTimeout(timme,3000);
+		}
+
+		function timme(){
+				ec.style.width=0+"%";
+				ec.style.opacity=0+"%";
+		}
+
+		function lev1(){
+			oum.style.width=55+"%";
+			oum.style.color="black";
+			oum1.style.color="black";
+		}
+
+		function lev2(){
+			lv2.style.width=55+"%";
+			setTimeout(a,1000);
+			setTimeout(b,1000);
+			setTimeout(c,1000);
+			setTimeout(d,1000);
+			setTimeout(e,1000);
+			setTimeout(f,1000);
+			setTimeout(g,1000);
+			setTimeout(h,1000);
+			setTimeout(i,1000);
+		}
+
+			function levv2(){
+			x=x+1;
+			if (mc.style.background=="red") {
+			mc.style.background="green";
+			mc2.style.background="red";
+		}
+		else
+		{
+			mc.style.background="red";
+			mc2.style.background="green";
+		}
+	
+		}
+
+		 function mover(){
+		 	q=1;
+		 	w=event.clientX;
+		 	y=event.clientY;
+		 	oum.innerHTML="<br>"+"<br>"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"&nbsp"+"Eje X: "+w+"&nbsp"+"Eje Y: "+y;
+		 	if (q==1) {
+		 	if(w>=479&&w<=1225&&y>=197&&y<=525)
+		 	{
+		 		console.log("Hola");
+		 		oum1.innerHTML="Estoy adentro";
+		 	}
+		 	else{
+		 		console.log("bye");
+		 		oum1.innerHTML="Estoy afuera";
+		 	}
+		 }
+		 }
+
+
+
+		crono=setInterval(levv2,1000);
+
+		function cerrar(){
+			lv2.style.width=0+"%";
+			console.log(x);
+		}
+
+		function cerrar2(){
+			oum.style.width=0+"%";
+			oum.style.color="transparent";
+			oum1.style.color="transparent";
+			console.log(x);
+		}
+
+		function a(){
+			ac.style.top=88+"%";
+			ac.style.left=15+"%";
+			ac.style.background="#FFD630";
+			
+		}
+		function b()
+		{
+			ac.style.left=25+"%";
+			ac.style.background="#FFF035";
+			
+		}
+		function c()
+		{
+			ac.style.left=35+"%";
+		}
+			function d()
+		{
+			ac.style.left=45+"%";
+		}
+		function e()
+		{
+			ac.style.left=55+"%";
+		}
+		function f()
+		{
+			ac.style.left=65+"%";
+			
+		}
+		function g()
+		{
+			ac.style.left=75+"%";
+		}
+			function h()
+		{
+			ac.style.left=85+"%";
+		}
+			function i()
+		{
+			ac.style.left=93+"%";
+		}
+
+
+
+
+
+	</script>
+
+</body>
+</html>

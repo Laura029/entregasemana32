@@ -1,0 +1,161 @@
+body{
+	background-image: url(fondo.jpg);
+}
+
+.ct{
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	width: 60%;
+	height: 10%;
+	font-size: 700%;
+	font-family: "titulop2";
+	-webkit-text-stroke: 2px #CEFF8C;
+	color: #66DCFE;
+}
+
+.ct2{
+	position: absolute;
+	top: 0%;
+	left: 33%;
+	width: 60%;
+	height: 10%;
+	font-size: 500%;
+	font-family: "titulop1";
+	-webkit-text-stroke: 2px #CEFF8C;
+	color: #66DCFE;
+}
+
+.ce{
+	position: absolute;
+	top: 30%;
+	left: 45%;
+	width: 0%;
+	height: 50%;
+	background: transparent;
+	transition: all 3s;
+	z-index: 2;
+
+}
+
+.c1{
+	position: absolute;
+	top: 40%;
+	left: 8%;
+	width: 18%;
+	height: 10%;
+	background: white;
+	border-style: double;
+	border-color: #FFF035 ;
+	transition: all 3s;
+	font-size: 400%;
+	font-family: "titulop3";
+}
+
+.c2{
+	position: absolute;
+	top: 60%;
+	left: 8%;
+	width: 18%;
+	height: 10%;
+	background: white;
+	border-style: double;
+	border-color: #FFF035;
+	transition: all 3s;
+	font-size: 400%;
+	font-family: "titulop3";
+}
+
+.cc1{
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	width: 0%;
+	height: 50%;
+	background: white;
+	transition: all 3s;
+	z-index: 1;
+}
+
+.cc2{
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	width: 0%;
+	height: 50%;
+	background: white;
+	transition: all 3s;
+	z-index: 1;
+
+}
+
+.ca{
+	position: absolute;
+	top: -5%;
+	left: -2%;
+	width: 10%;
+	height: 18%;
+	background: #FF3A30;
+	transition: all 3s;
+	border-radius: 100%;
+}
+.cm{
+	position: absolute;
+	top: 32%;
+	left: 15%;
+	width: 25%;
+	height: 33%;
+	background: red;
+}
+
+.cm2{
+	position: absolute;
+	top: 32%;
+	left: 60%;
+	width: 25%;
+	height: 33%;
+	background: red;
+}
+.mou{
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	width: 0%;
+	height: 50%;
+	background: white;
+	transition: all 3s;
+	z-index: 1;
+	font-size: 300%;
+	font-family: "titulop2";
+	color: transparent;
+}
+.mou1{
+	position: absolute;
+	top: 60%;
+	left: 52%;
+	width: 30%;
+	height: 25%;
+	background: transparent;
+	transition: all 3s;
+	z-index: 1;
+	font-size: 300%;
+	font-family: "titulop4";
+	color: transparent;
+}
+
+@font-face{
+	font-family: titulop1;
+	src: url(titulo1.otf);
+}
+@font-face{
+	font-family: titulop2;
+	src: url(titulo2.ttf);
+}
+@font-face{
+	font-family: titulop3;
+	src: url(titulo3.ttf);
+}
+@font-face{
+	font-family: titulop4;
+	src: url(titulo4.otf);
+}
